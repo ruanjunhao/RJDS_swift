@@ -1,0 +1,6 @@
+framework module Pods_RJDS_swift {
+  umbrella header "Pods-RJDS_swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

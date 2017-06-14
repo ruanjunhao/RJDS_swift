@@ -1,0 +1,48 @@
+PODS:
+  - Alamofire (4.4.0)
+  - IQKeyboardManagerSwift (4.0.10)
+  - Just (0.6.0)
+  - Kingfisher (3.10.1)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
+  - NAKPlaybackIndicatorView (0.0.3)
+  - pop (1.0.9)
+  - ReachabilitySwift (3)
+  - SnapKit (3.2.0)
+  - SwiftyJSON (3.1.4)
+  - ZFPlayer (2.1.3):
+    - Masonry
+
+DEPENDENCIES:
+  - Alamofire
+  - IQKeyboardManagerSwift
+  - Just
+  - Kingfisher
+  - MBProgressHUD
+  - MJRefresh
+  - NAKPlaybackIndicatorView (~> 0.0.3)
+  - pop (~> 1.0.9)
+  - ReachabilitySwift
+  - SnapKit
+  - SwiftyJSON
+  - ZFPlayer
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  IQKeyboardManagerSwift: 75ba21a23794a1e6b6fe6d9a267ea17f80e06771
+  Just: 0b60164cc2b516fbddd8948ef7841c70896f1e4d
+  Kingfisher: 33a1b82140fcb14a9fc13f78dfde2a03ff8de8cb
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  NAKPlaybackIndicatorView: 794dd97576fe074bb1844c19ebcbf7509384a47f
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  ZFPlayer: 8dc82b4508fbba4ee59d0304c52e30f8b3390244
+
+PODFILE CHECKSUM: 87fc4b84540658eceb70dc4d2ec5c77aabf0938c
+
+COCOAPODS: 1.2.0

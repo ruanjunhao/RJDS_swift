@@ -14,6 +14,7 @@
 		8B6492011EF10B8300F3B123 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B6491FF1EF10B8300F3B123 /* LaunchScreen.storyboard */; };
 		8B64920C1EF10B8300F3B123 /* RJDS_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B64920B1EF10B8300F3B123 /* RJDS_swiftTests.swift */; };
 		8B6492171EF10B8300F3B123 /* RJDS_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6492161EF10B8300F3B123 /* RJDS_swiftUITests.swift */; };
+		ECC376183FD778BF3E9680B0 /* Pods_RJDS_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43927FC351E36338A62DC848 /* Pods_RJDS_swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D6875FC3654FE0A31284B87 /* Pods-RJDS_swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJDS_swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-RJDS_swift/Pods-RJDS_swift.release.xcconfig"; sourceTree = "<group>"; };
+		43927FC351E36338A62DC848 /* Pods_RJDS_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJDS_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85DED0694EADEC8F6849F8C2 /* Pods_RJDS_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJDS_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B6491F31EF10B8300F3B123 /* RJDS_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RJDS_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B6491F61EF10B8300F3B123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B6491F81EF10B8300F3B123 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		8B6492121EF10B8300F3B123 /* RJDS_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RJDS_swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B6492161EF10B8300F3B123 /* RJDS_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RJDS_swiftUITests.swift; sourceTree = "<group>"; };
 		8B6492181EF10B8300F3B123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		977986A3C13E31BE031ACA36 /* Pods_RJDS_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJDS_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B858C4F7B6233205D941961 /* Pods-RJDS_swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJDS_swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RJDS_swift/Pods-RJDS_swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECC376183FD778BF3E9680B0 /* Pods_RJDS_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		669763DC07DDC751F02A9578 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B858C4F7B6233205D941961 /* Pods-RJDS_swift.debug.xcconfig */,
+				0D6875FC3654FE0A31284B87 /* Pods-RJDS_swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8B6491EA1EF10B8300F3B123 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +97,8 @@
 				8B64920A1EF10B8300F3B123 /* RJDS_swiftTests */,
 				8B6492151EF10B8300F3B123 /* RJDS_swiftUITests */,
 				8B6491F41EF10B8300F3B123 /* Products */,
+				669763DC07DDC751F02A9578 /* Pods */,
+				FE2669E11A7512530207AA2A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +143,16 @@
 			path = RJDS_swiftUITests;
 			sourceTree = "<group>";
 		};
+		FE2669E11A7512530207AA2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43927FC351E36338A62DC848 /* Pods_RJDS_swift.framework */,
+				85DED0694EADEC8F6849F8C2 /* Pods_RJDS_swiftTests.framework */,
+				977986A3C13E31BE031ACA36 /* Pods_RJDS_swiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B64921B1EF10B8300F3B123 /* Build configuration list for PBXNativeTarget "RJDS_swift" */;
 			buildPhases = (
+				2BFF90E723F6967AD95ACADF /* [CP] Check Pods Manifest.lock */,
 				8B6491EF1EF10B8300F3B123 /* Sources */,
 				8B6491F01EF10B8300F3B123 /* Frameworks */,
 				8B6491F11EF10B8300F3B123 /* Resources */,
+				E566F6E68E3454939245339E /* [CP] Embed Pods Frameworks */,
+				69CFF6CA09FE830D26582F00 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +284,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BFF90E723F6967AD95ACADF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		69CFF6CA09FE830D26582F00 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RJDS_swift/Pods-RJDS_swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E566F6E68E3454939245339E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RJDS_swift/Pods-RJDS_swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8B6491EF1EF10B8300F3B123 /* Sources */ = {
@@ -410,9 +489,11 @@
 		};
 		8B64921C1EF10B8300F3B123 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B858C4F7B6233205D941961 /* Pods-RJDS_swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RJDS_swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "www.zuihuibao.cn.RJDS-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +503,11 @@
 		};
 		8B64921D1EF10B8300F3B123 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D6875FC3654FE0A31284B87 /* Pods-RJDS_swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RJDS_swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "www.zuihuibao.cn.RJDS-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +588,7 @@
 				8B64921D1EF10B8300F3B123 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B64921E1EF10B8300F3B123 /* Build configuration list for PBXNativeTarget "RJDS_swiftTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +597,7 @@
 				8B6492201EF10B8300F3B123 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B6492211EF10B8300F3B123 /* Build configuration list for PBXNativeTarget "RJDS_swiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +606,7 @@
 				8B6492231EF10B8300F3B123 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
